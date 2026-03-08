@@ -1,0 +1,332 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Frontend Developer",
+            "companyId": 1,
+            "companyName": "Darkento Ltd.",
+            "companyLogo": "https://images.unsplash.com/photo-1549924231-f129b911e442?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcGFueSUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+            "location": "Dhaka",
+            "salary": "40k - 70k",
+            "type": "Full Time",
+            "experience": "1-2 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "React",
+                "Next.js",
+                "Tailwind"
+            ],
+            "description": "We are looking for a skilled frontend developer.",
+            "posted": "2 days ago",
+            "featured": true,
+            "applicants": 12
+        },
+        {
+            "id": 2,
+            "title": "Backend Developer",
+            "companyId": 2,
+            "companyName": "CloudNet",
+            "companyLogo": "https://plus.unsplash.com/premium_photo-1668902224020-8c6062ff6ec1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGNvbXBhbnklMjBsb2dvfGVufDB8fDB8fHww",
+            "location": "Remote",
+            "salary": "60k - 90k",
+            "type": "Remote",
+            "experience": "2-3 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ],
+            "description": "Backend developer needed for API development.",
+            "posted": "1 day ago",
+            "featured": true,
+            "applicants": 9
+        },
+        {
+            "id": 3,
+            "title": "UI UX Designer",
+            "companyId": 3,
+            "companyName": "Creative Studio",
+            "companyLogo": "https://images.unsplash.com/photo-1696654149774-6674b4d1ee35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGNvbXBhbnklMjBsb2dvfGVufDB8fDB8fHww",
+            "location": "Dhaka",
+            "salary": "35k - 50k",
+            "type": "Full Time",
+            "experience": "1 Year",
+            "categoryId": 2,
+            "jobCategory": "Design",
+            "skills": [
+                "Figma",
+                "Adobe XD",
+                "Design System"
+            ],
+            "description": "Creative UI/UX designer required.",
+            "posted": "3 days ago",
+            "featured": false,
+            "applicants": 5
+        },
+        {
+            "id": 4,
+            "title": "React Developer",
+            "companyId": 4,
+            "companyName": "DevHub",
+            "companyLogo": "https://plus.unsplash.com/premium_photo-1669075651475-5cba57c03b8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGNvbXBhbnklMjBsb2dvfGVufDB8fDB8fHww",
+            "location": "Chittagong",
+            "salary": "50k - 80k",
+            "type": "Full Time",
+            "experience": "2 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "React",
+                "Redux",
+                "JavaScript"
+            ],
+            "description": "React developer needed for modern applications.",
+            "posted": "4 days ago",
+            "featured": true,
+            "applicants": 7
+        },
+        {
+            "id": 5,
+            "title": "Next.js Developer",
+            "companyId": 5,
+            "companyName": "NextTech",
+            "companyLogo": "https://images.unsplash.com/photo-1659893982132-e8eb8f92048f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQwfHxjb21wYW55JTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+            "location": "Dhaka",
+            "salary": "55k - 85k",
+            "type": "Full Time",
+            "experience": "2 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "Next.js",
+                "SSR",
+                "Tailwind"
+            ],
+            "description": "Next.js developer required for SaaS product.",
+            "posted": "5 days ago",
+            "featured": true,
+            "applicants": 8
+        },
+        {
+            "id": 6,
+            "title": "Full Stack Developer",
+            "companyId": 6,
+            "companyName": "TechNova",
+            "companyLogo": "/companies/technova.png",
+            "location": "Remote",
+            "salary": "80k - 120k",
+            "type": "Remote",
+            "experience": "3 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "description": "Full stack developer for scalable platforms.",
+            "posted": "6 days ago",
+            "featured": false,
+            "applicants": 6
+        },
+        {
+            "id": 7,
+            "title": "Junior Web Developer",
+            "companyId": 7,
+            "companyName": "WebCore",
+            "companyLogo": "/companies/webcore.png",
+            "location": "Dhaka",
+            "salary": "25k - 40k",
+            "type": "Full Time",
+            "experience": "Freshers",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description": "Looking for passionate junior developer.",
+            "posted": "2 days ago",
+            "featured": false,
+            "applicants": 4
+        },
+        {
+            "id": 8,
+            "title": "WordPress Developer",
+            "companyId": 8,
+            "companyName": "WP Studio",
+            "companyLogo": "/companies/wpstudio.png",
+            "location": "Khulna",
+            "salary": "30k - 45k",
+            "type": "Full Time",
+            "experience": "1 Year",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "WordPress",
+                "PHP",
+                "Elementor"
+            ],
+            "description": "WordPress developer with theme customization skills.",
+            "posted": "7 days ago",
+            "featured": false,
+            "applicants": 3
+        },
+        {
+            "id": 9,
+            "title": "Mobile App Developer",
+            "companyId": 9,
+            "companyName": "Appify",
+            "companyLogo": "/companies/appify.png",
+            "location": "Dhaka",
+            "salary": "60k - 90k",
+            "type": "Full Time",
+            "experience": "2 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "React Native",
+                "Firebase"
+            ],
+            "description": "Mobile app developer for cross-platform apps.",
+            "posted": "1 day ago",
+            "featured": true,
+            "applicants": 10
+        },
+        {
+            "id": 10,
+            "title": "Software Engineer",
+            "companyId": 10,
+            "companyName": "SoftTech",
+            "companyLogo": "/companies/softtech.png",
+            "location": "Dhaka",
+            "salary": "70k - 110k",
+            "type": "Full Time",
+            "experience": "3 Years",
+            "categoryId": 1,
+            "jobCategory": "Development",
+            "skills": [
+                "JavaScript",
+                "Node.js",
+                "Microservices"
+            ],
+            "description": "Software engineer needed for enterprise solutions.",
+            "posted": "3 days ago",
+            "featured": true,
+            "applicants": 11
+        },
+        {
+            "id": 11,
+            "title": "Frontend Intern",
+            "companyId": 1,
+            "companyName": "Darkento Ltd.",
+            "companyLogo": "/companies/darkento.png",
+            "location": "Dhaka",
+            "salary": "10k - 15k",
+            "type": "Internship",
+            "experience": "Freshers",
+            "categoryId": 1,
+            "jobCategory": "Internship",
+            "skills": [
+                "HTML",
+                "CSS",
+                "React"
+            ],
+            "description": "Frontend internship opportunity.",
+            "posted": "1 day ago",
+            "featured": false,
+            "applicants": 15
+        },
+        {
+            "id": 12,
+            "title": "DevOps Engineer",
+            "companyId": 11,
+            "companyName": "DevCloud",
+            "companyLogo": "/companies/devcloud.png",
+            "location": "Remote",
+            "salary": "90k - 130k",
+            "type": "Remote",
+            "experience": "3 Years",
+            "categoryId": 3,
+            "jobCategory": "DevOps",
+            "skills": [
+                "Docker",
+                "AWS",
+                "CI/CD"
+            ],
+            "description": "DevOps engineer for cloud infrastructure.",
+            "posted": "6 days ago",
+            "featured": false,
+            "applicants": 5
+        },
+        {
+            "id": 13,
+            "title": "QA Engineer",
+            "companyId": 12,
+            "companyName": "QATech",
+            "companyLogo": "/companies/qatech.png",
+            "location": "Dhaka",
+            "salary": "40k - 60k",
+            "type": "Full Time",
+            "experience": "2 Years",
+            "categoryId": 4,
+            "jobCategory": "Quality Assurance",
+            "skills": [
+                "Testing",
+                "Automation",
+                "Selenium"
+            ],
+            "description": "Quality assurance engineer required.",
+            "posted": "2 days ago",
+            "featured": false,
+            "applicants": 4
+        },
+        {
+            "id": 14,
+            "title": "Data Analyst",
+            "companyId": 13,
+            "companyName": "DataInsight",
+            "companyLogo": "/companies/datainsight.png",
+            "location": "Dhaka",
+            "salary": "50k - 75k",
+            "type": "Full Time",
+            "experience": "2 Years",
+            "categoryId": 5,
+            "jobCategory": "Data",
+            "skills": [
+                "SQL",
+                "Power BI",
+                "Excel"
+            ],
+            "description": "Data analyst for business insights.",
+            "posted": "3 days ago",
+            "featured": false,
+            "applicants": 6
+        },
+        {
+            "id": 15,
+            "title": "Product Manager",
+            "companyId": 14,
+            "companyName": "ProductLab",
+            "companyLogo": "/companies/productlab.png",
+            "location": "Dhaka",
+            "salary": "90k - 150k",
+            "type": "Full Time",
+            "experience": "4 Years",
+            "categoryId": 6,
+            "jobCategory": "Management",
+            "skills": [
+                "Product Strategy",
+                "Agile"
+            ],
+            "description": "Product manager to lead product development.",
+            "posted": "5 days ago",
+            "featured": true,
+            "applicants": 7
+        }
+    ]
+}

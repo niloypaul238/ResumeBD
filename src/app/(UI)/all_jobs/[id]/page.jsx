@@ -1,5 +1,6 @@
-import { MapPin, Phone } from 'lucide-react';
+import { FacebookIcon, Instagram, Linkedin, MapPin, MoveRight, Phone, Youtube } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const JobDetails = async ({ params }) => {
@@ -104,69 +105,93 @@ const JobDetails = async ({ params }) => {
                                 </ul>
                             </div>
 
-                        </div>
-
-                        {/* RIGHT SIDEBAR */}
-                        <div className="bg-gray-100 p-6 rounded-lg h-fit">
-
-                            <h3 className="text-xl font-semibold mb-4 border-b pb-2">
-                                Summery
-                            </h3>
-
-                            <div className="space-y-2 text-sm">
-
-                                <div className="flex justify-between">
-                                    <span>Job Type</span>
-                                    <span className="text-green-600 font-medium">{type}</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Category</span>
-                                    <span>{jobCategory}</span>
-                                </div>
-                                <div className="flex justify-between">
-                                    <span>Posted</span>
-                                    <span>{posted}</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Salary</span>
-                                    <span>{salary} / Monthly</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Experience</span>
-                                    <span>{experience}</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Gender</span>
-                                    <span>{gender}</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Qualification</span>
-                                    <span>{qualification}</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>applicants</span>
-                                    <span>{applicants} Person</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Applied</span>
-                                    <span>{applied}</span>
-                                </div>
-
-                                <div className="flex justify-between">
-                                    <span>Application End</span>
-                                    <span className="text-red-500">{applicationEnd}</span>
-                                </div>
-
+                            <div>
+                                <h2 className="text-2xl font-semibold mb-4">Statement</h2>
+                                <p className='text-sm text-gray-600 leading-6 mb-4'>Finate is committed to creating the happiest company working for and is proud to provide equal opportunity to all. All the qualified applicants will receive consideration for employment without regard to race, color, ancestry, religion, sex, sexual orientation, age, citizenship, marital status, disability, gender identity, or any other basis protected by federal, state, or local law.</p>
+                            </div>
+                            <div className=" mb-4">
+                                <Link href={'/contact'} className='flex w-40 justify-center items-center gap-4 font-semibold hover:bg-black transition-bg duration-300 cursor-pointer bg-green-600 text-white px-6 py-2 rounded'>Apply <MoveRight absoluteStrokeWidth /></Link>
                             </div>
 
                         </div>
+
+                        {/* RIGHT SIDEBAR */}
+                        <div>
+                            <div className="bg-gray-100 p-6 rounded-lg h-fit">
+
+                                <h3 className="text-xl relative font-semibold mb-4  pb-2">
+                                    <span className='absolute bg-green-600 w-15 h-0.5 bottom-0 rounded-full'></span>
+                                    Summery
+                                </h3>
+
+                                <div className="space-y-2 text-sm">
+
+                                    <div className="flex justify-between">
+                                        <span>Job Type</span>
+                                        <span className="text-green-600 font-medium">{type}</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Category</span>
+                                        <span>{jobCategory}</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                        <span>Posted</span>
+                                        <span>{posted}</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Salary</span>
+                                        <span>{salary} / Monthly</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Experience</span>
+                                        <span>{experience}</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Gender</span>
+                                        <span>{gender}</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Qualification</span>
+                                        <span>{qualification}</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>applicants</span>
+                                        <span>{applicants} Person</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Applied</span>
+                                        <span>{applied}</span>
+                                    </div>
+
+                                    <div className="flex justify-between">
+                                        <span>Application End</span>
+                                        <span className="text-red-500">{applicationEnd}</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div className='mt-15 bg-gray-100 p-6 rounded-lg h-fit'>
+                                <h3 className="text-xl relative font-semibold mb-4  pb-2">
+                                    <span className='absolute bg-green-600 w-15 h-0.5 bottom-0 rounded-full'></span>
+                                    Share With
+                                </h3>
+                                <div className='flex  justify-between items-center'>
+                                    <FacebookIcon className='border border-gray-400/80 rounded p-1.5 hover:bg-green-600 hover:text-white transition-bg cursor-pointer duration-400 hover:border-transparent' size={30} absoluteStrokeWidth />
+                                    <Linkedin className='border border-gray-400/80 rounded p-1.5 hover:bg-green-600 hover:text-white transition-bg cursor-pointer duration-400 hover:border-transparent' size={30} absoluteStrokeWidth />
+                                    <Instagram className='border border-gray-400/80 rounded p-1.5 hover:bg-green-600 hover:text-white transition-bg cursor-pointer duration-400 hover:border-transparent' size={30} absoluteStrokeWidth />
+                                    <Youtube className='border border-gray-400/80 rounded p-1.5 hover:bg-green-600 hover:text-white transition-bg cursor-pointer duration-400 hover:border-transparent' size={30} absoluteStrokeWidth />
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>

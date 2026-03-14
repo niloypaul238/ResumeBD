@@ -42,6 +42,10 @@ const Navbar = () => {
                             Saved Jobs
                         </Link>
 
+                        <Link href="/employerDetails" className=" text-white hover:text-green-500">
+                            Employers Details
+                        </Link>
+
                         <Link href="/dashboard" className=" text-white hover:text-green-500">
                             Dashboard
                         </Link>

@@ -1,10 +1,11 @@
 import { Arimo } from "next/font/google";
 import "./globals.css";
+import Context from "./Context/Context";
 
 
 const arimo = Arimo({
   subsets: ["latin"],
-  weight: [ "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
 })
 
 export const metadata = {
@@ -15,8 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body  className={arimo.className} >
-        {children}
+      <body className={arimo.className} >
+        <Context>
+
+          {children}
+        </Context>
       </body>
     </html>
   );
